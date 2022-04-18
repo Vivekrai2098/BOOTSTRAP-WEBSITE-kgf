@@ -1,0 +1,190 @@
+.mid{
+	width:100%;
+	height: 100vh;
+	overflow: hidden;
+	background-color: black;
+
+}
+.mid video{
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	object-fit: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.navbar{
+	z-index: 1000;
+	background-color: black;
+}
+#hello{
+	height: 100px;
+	width: 170px;
+}
+li.nav-item:nth-child(n) > a:nth-child(n){
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 0.9rem;
+}
+li.nav-item:nth-child(n) > a:nth-child(n):hover{
+	color: red;
+
+}
+/*this is the photo */
+#ghayal h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+	color: red;
+	text-shadow: 2px 7px 9px red;
+	padding-top: 67px;
+}
+#ghayal{
+	background-color:black;
+}
+#con{
+	background-color: black;
+}
+#ro{
+	padding-bottom: 100px;
+}
+/*this is the parralax*/
+.mo{
+	/*min-height: 600px;*/
+	height: 100vh;
+	/*background-position: 50% 50%;*/
+	background-position: 69%;
+	background-image: url("pr.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  /*background-position: center center;*/
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+
+
+}
+#khadan{
+	background-color: black;
+	background-position: 50% 50%;
+}
+html{
+	scroll-behavior: smooth;
+}
+#maa{
+	background-color: black;
+}
+#maa1{
+	padding-top: 20px;
+	border-radius: 25px;
+}
+/*this is the experiment*/
+.title-word {
+  animation: color-animation 6s linear infinite;
+}
+
+@keyframes color-animation {
+  0%    {color: red;}
+  32%   {color: red;}
+  33%   {color: red;}
+  65%   {color: black;}
+  66%   {color: black;}
+  99%   {color: red;}
+  100%  {color: red;}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight:bold;
+  font-size: 34px ;
+  padding-left: 30px ;
+  text-transform: uppercase;
+}
+#atext{
+	color: white;
+	font-size: 18px;
+	padding-top: 150px;
+}
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+#baaa{
+	padding-top:90px;
+	padding-left: 30px;
+}
+#agar{
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+#rd{
+	padding-top: 190px ;
+}
+#myCarouselimg{
+	width: auto;
+	height: 255px;
+	max-width: 255px;
+}
